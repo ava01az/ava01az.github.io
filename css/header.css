@@ -53,7 +53,7 @@
 .concept-six {
 	display: flex;
 	align-items: center;
-	background: url(../heads.png) top
+	background: url(../images/duck.png) top
 		right / cover;
 	.word {
 		width: 550px;
