@@ -313,3 +313,15 @@
     text-align: center; 
   }
 }
+
+
+.hover,
+.word,
+.headerss .word {
+  position: relative;
+  color: #fff;
+  font-weight: 900;
+  font-family: Montserrat, sans-serif;
+  font-size: clamp(28px, 8vw, 60px); /* Scales between 28px and 60px based on viewport width */
+  text-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
