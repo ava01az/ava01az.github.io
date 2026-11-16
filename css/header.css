@@ -146,6 +146,6 @@
   color: #fff;
   font-weight: 900;
   font-family: "Comfortaa", sans-serif;
-  font-size: clamp(28px, 8vw, 60px); 
-  text-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  font-size: clamp(28px, 10vw, 60px); 
+  text-shadow: 0 10px 45px rgba(0, 0, 0, 0.9);
 }
