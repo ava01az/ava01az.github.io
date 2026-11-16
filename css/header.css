@@ -11,7 +11,7 @@
 
 .main-content {
 	text-align: center;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	scroll-snap-type: y mandatory;
 	position: relative;
 	height: 100vh;
