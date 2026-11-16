@@ -137,3 +137,15 @@
 		top: 100px;
 	}
 }
+
+
+.hover,
+.word,
+.headerss .word {
+  position: relative;
+  color: #fff;
+  font-weight: 900;
+  font-family: "Comfortaa", sans-serif;
+  font-size: clamp(28px, 8vw, 60px); 
+  text-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
