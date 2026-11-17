@@ -149,3 +149,31 @@
   font-size: clamp(28px, 10vw, 60px); 
   text-shadow: 0 10px 45px rgba(0, 0, 0, 0.9);
 }
+}
+
+@media screen and (max-width: 768px) {
+  .concept-six .word {
+    display: flex;
+    /* flex-wrap: wrap;        */
+    justify-content: center;
+    gap: 8px;             
+    width: 100%;
+    max-width: 100%;
+    padding: 0 15px;
+  }
+
+  /* Disables the hover effect entirely on mobile */
+  .concept-six .word:hover .char {
+    transform: none !important;
+    margin: 0 !important;
+  }
+
+  .word-group {
+    display: inline-flex;
+    width: auto;
+  }
+
+  .concept-six .word .char {
+    flex: 0 1 auto; 
+  }
+}
