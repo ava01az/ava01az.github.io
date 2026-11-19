@@ -310,8 +310,7 @@
   background-color: #ffffff; 
   color: #035ca1;
   text-decoration: none;
-  border-radius: 10px;
-  border-color: #0078d4;
+  border: 2px solid #0078d4;
   margin-bottom: 20px;
   font-weight: bold;
 }
