@@ -304,6 +304,18 @@
   font-weight: bold;
 }
 
+.form-button:hover {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffffff; 
+  color: #035ca1;
+  text-decoration: none;
+  border-radius: 10px;
+  border-color: #0078d4;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
 @media (max-width: 768px) {
   .suggestion-container {
     flex-direction: column; 
